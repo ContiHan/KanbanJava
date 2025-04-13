@@ -1,4 +1,4 @@
-﻿package repository;
+package repository;
 
 import domain.Kanban;
 import org.springframework.data.jpa.repository.JpaRepository;

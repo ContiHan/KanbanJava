@@ -1,4 +1,4 @@
-﻿package controller;
+package controller;
 
 import domain.User;
 import io.swagger.v3.oas.annotations.Operation; // Swagger anotace
