@@ -1,13 +1,13 @@
-package controller;
+package com.uhk.kanban.controller;
 
-import domain.Kanban;
+import com.uhk.kanban.domain.Kanban;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.KanbanService;
+import com.uhk.kanban.service.KanbanService;
 
 import java.util.List;
 

@@ -1,11 +1,11 @@
-package service;
+package com.uhk.kanban.service;
 
-import domain.Kanban;
-import exception.ResourceNotFoundException;
+import com.uhk.kanban.domain.Kanban;
+import com.uhk.kanban.exception.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import repository.KanbanRepository;
+import com.uhk.kanban.repository.KanbanRepository;
 
 import java.util.List;
 

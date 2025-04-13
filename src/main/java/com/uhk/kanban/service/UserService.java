@@ -1,11 +1,11 @@
-package service;
+package com.uhk.kanban.service;
 
-import domain.User;
-import exception.ResourceNotFoundException;
+import com.uhk.kanban.domain.User;
+import com.uhk.kanban.exception.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor; // Lombok pro generování konstruktoru s @Autowired
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional; // Pro správu transakcí
-import repository.UserRepository;
+import com.uhk.kanban.repository.UserRepository;
 
 import java.util.List;
 

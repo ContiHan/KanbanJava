@@ -1,4 +1,4 @@
-package domain;
+package com.uhk.kanban.domain;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,6 +1,6 @@
-package repository;
+package com.uhk.kanban.repository;
 
-import domain.User;
+import com.uhk.kanban.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
